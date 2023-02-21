@@ -1,15 +1,20 @@
 class MyAwesomeClass{
 
-scream() : void {
-    console.log("AAAAAAAAAAAAAAAA");
+    
+scream() : string {
+    additionalScream();
+    return "Scream";
 }
 
-roar() : void {
-    console.log("RRRRRRRRRRRRRRRRRRRRRR")
+
+roar() : string {
+    additionalRoar();
+    return "Roar";
 }
 
-shout() : void {
-console.log("ARGHHH!!!!!");
+shout() : string {
+	additionalShoutFunctionallity();
+    return "Shout";
 }
 
 }
